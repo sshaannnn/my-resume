@@ -8,6 +8,7 @@ export interface ResumeData {
   location: string;
   linkedin: string;
   github: string;
+  blog: string;
   summary: string;
   experience: {
     company: string;
@@ -35,11 +36,12 @@ export interface ResumeData {
 export const resumeData: ResumeData = {
   name: 'Shanny WU',
   title: 'Backend Engineer',
-  email: 'ysshaannnn@gmail.com',
+  email: 'theshannywu@gmail.com',
   phone: '+64 274950280',
   location: 'Auckland, New Zealand',
   linkedin: 'linkedin.com/in/yswuu',
   github: 'github.com/sshaannnn',
+  blog: 'blog.shanny.cc',
   summary:
     'Enthusiastic and detail-oriented Software Engineer with strong backend expertise in Node.js and ASP.NET Core, and growing proficiency in mobile app development (Flutter). Experienced in delivering scalable backend systems, API integrations, and user-centric web applications for large- scale commercial clients. A highly motivated problem-solver who values clean architecture, collaboration, and continuous learning. Skilled at bridging technical complexity with user-friendly functionality.',
   experience: [
@@ -65,7 +67,7 @@ export const resumeData: ResumeData = {
           Solely responsible for backend of the in-store Pad System, integrating
           with 3rd-party vendors.
         </>,
-        <>Core stack: Node.js / NestJS / MySQL.</>,
+        <>Tech stack: Node.js / NestJS / MySQL.</>,
       ],
     },
     {
@@ -114,7 +116,7 @@ export const resumeData: ResumeData = {
     },
     {
       label: 'Tools & Infrastructure',
-      items: 'Git, GCP, Kubernetes,, Vite, Docker, Elastic Stack,CI/CD, AWS',
+      items: 'Git, GCP, Kubernetes, Vite, Docker, Elastic Stack, CI/CD, AWS',
     },
   ],
   education: [
