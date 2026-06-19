@@ -56,8 +56,8 @@ export const resumeData: ResumeData = {
           digital platforms.
         </>,
         <>
-          Maintained high-traffic web systems with ≈ <strong>100 k </strong>
-          3concurrent users during launch periods.
+          Maintained high-traffic web systems with ≈ <strong>100 k </strong>{' '}
+          concurrent users during launch periods.
         </>,
         <>
           Led integration with SMS and SMTP services, enabling large-scale
